@@ -4,7 +4,7 @@
 
   background-image: url(../../../images/cover/cover-depot.jpg);
   background-position: center center;
-  background-size: 1184px 740px;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: "Inter", "Verdana", sans-serif;
   z-index: 2;
