@@ -1,0 +1,61 @@
+.cover__background {
+  min-height: 720px;
+  position: relative;
+
+  background-image: url(../../../images/cover/cover-depot.jpg);
+  background-position: center center;
+  background-size: 1184px 740px;
+  background-repeat: no-repeat;
+  font-family: "Inter", "Verdana", sans-serif;
+  z-index: 2;
+}
+.cover__background:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.cover__background:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .cover__background {
+    background-size: 1024px 640px;
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover__background {
+    background-size: 768px 480px;
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+@media (min-width: 426px) and (max-width: 767px) {
+  .cover__background {
+    background-size: 440px 275px;
+    max-width: 440px;
+    min-height: 275px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__background {
+    background-size: 320px 200px;
+    max-width: 320px;
+    min-height: 200px;
+  }
+}

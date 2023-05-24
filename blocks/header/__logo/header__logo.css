@@ -1,7 +1,17 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  background-image: url(../../../images/header/russia.svg);
+  background-image: url(../../../images/header/header-russia.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    background-image: url(../../../images/header/header-russia.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
