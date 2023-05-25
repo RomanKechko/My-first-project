@@ -8,14 +8,14 @@
   text-align: center;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__title {
     font-size: 60px;
     line-height: 70px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;

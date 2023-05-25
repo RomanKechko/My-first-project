@@ -10,8 +10,5 @@
   .header__logo {
     width: 142px;
     height: 42px;
-    background-image: url(../../../images/header/header-russia.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }

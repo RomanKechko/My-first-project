@@ -8,11 +8,8 @@
 
 @media (max-width: 767px) {
   .intro__title {
-    margin: 0;
     padding-right: 40px;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    color: #ffffff;
   }
 }
